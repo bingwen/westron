@@ -6,13 +6,11 @@ func = (request, response) ->
     params = parser.query
     input = params.number
     numInput = Number input
-    console.log numInput
     numOutput = Number Math.random()*numInput
     numOutput = numOutput.toFixed 0
     response.write numOutput
-    response.end
-    console.log('finish')
+    response.end ''
     return
 server = http.createServer func 
-server.listen 82
+server.listen 80
 console.log 'Running...'
