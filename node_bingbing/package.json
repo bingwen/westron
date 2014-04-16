@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "socket.io": "0.9.16",
-    "express": "3.x"
+    "express": "3.x",
+    "koa": "~0.5.5"
   }
 }

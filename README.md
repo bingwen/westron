@@ -21,6 +21,8 @@
 ###Koa
 
  - Express原班人马打造的下一代框架 http://koajs.com/
+ - http://koa.rednode.cn/
+ - 使用koa必须`node v0.11.7+` 带`--harmony`参数才能运行
 
 ###socket.io
 
