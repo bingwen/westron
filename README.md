@@ -25,3 +25,7 @@
 ###socket.io
 
  - http://socket.io/
+
+### Taobao npm
+
+ - http://npm.taobao.org
